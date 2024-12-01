@@ -1,0 +1,410 @@
+@import "log.css";
+@import "login-form.css";
+@import "register.css";
+/* GENERATED */
+vaadin-app-layout::part(navbar) {
+   border-bottom: 0.5px solid var(--nav-border);
+}
+
+.stars-layout {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   font-size: 22px;
+}
+
+.rating-layout > span {
+   color: white;
+   text-shadow: 0.5px 0.5px white;
+   font-size: 17px;
+}
+
+.rating-layout {
+   width: 100%;
+   align-items: center;
+   height: 100%;
+   justify-content: center;
+}
+
+.download-div > vaadin-button {
+  align-self: center;
+  height: 55px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid var(--nav-border);
+  margin-top: 10px;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgba(31, 215, 232, 0.873) 0%, rgba(2, 29, 78, 0.681) 40%);
+  color: white;
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   font-family: serif;
+  color: #0ef;
+}
+
+.download-div > span:nth-child(2) > vaadin-icon {
+   fill: #0ef !important;
+}
+
+.download-div > span:nth-child(2) {
+   color: white;
+   display: flex;
+   gap: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   text-shadow: 0.5px 0.5px #0ef;
+}
+
+.download-div > span:first-child {
+   color: #0ef;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.download-div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.download-info-text {
+   color: white;
+   font-size: 15px;
+   text-align: center;
+}
+
+.time-text > vaadin-icon {
+   color: #0ef;
+}
+
+.time-text {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   color: var(--secondary);
+   font-size: 14px;
+}
+
+.successful-text {
+   background: linear-gradient(270deg, gray 0%, rgba(31, 215, 232, 0.873) 60%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 23px;
+   font-weight: bold;
+   width: 100%;
+   text-align: center;
+}
+
+.generated-header > vaadin-icon {
+   stroke: #0ef;
+}
+
+.generated-header > span {
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.generated-header {
+   justify-content: space-between;
+   font-size: 25px;
+   width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: white;
+}
+
+.generated-main-layout {
+   width: 100%;
+   height: 100%;
+}
+
+/* MAIN */
+.progress-div vaadin-progress-bar[indeterminate] {
+   background: #0e;
+}
+
+.progress-div vaadin-progress-bar {
+   width: 100%;
+   height: 10px;
+}
+
+.progress-div > label {
+   color: white;
+}
+
+.progress-div {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 150px;
+}
+
+.fade-in-out {
+   animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+   0% { opacity: 0; } 
+   50% { opacity: 1; } 
+   100% { opacity: 0; }
+}
+
+.ai-avatar {
+   width: 200px;
+   height: 200px;
+   fill: white;
+   stroke: #0ef;
+}
+
+.second-layout {
+   align-self: end;
+}
+
+.second-layout > div {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   align-items: center;
+   background: var(--button-contrast-color);
+   border-radius: 10px;
+   padding: 8px;
+}
+
+.second-layout vaadin-icon {
+   color: #0ef;
+}
+
+.header-text {
+   background: linear-gradient(270deg, gray 0%, rgba(31, 215, 232, 0.873) 60%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+vaadin-avatar {
+   fill: white;
+}
+
+.field-layout > vaadin-button {
+   /*background: var(--lumo-primary-color);
+   color: white;
+   text-shadow: 0.5px 0.5px white;
+   border-radius: 30px;
+   height: 45px;*/
+   height: 55px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid var(--nav-border);
+  margin-top: 10px;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgba(31, 215, 232, 0.873) 0%, rgba(2, 29, 78, 0.681) 40%);
+  color: white;
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   font-family: serif;
+}
+
+.field-layout > vaadin-text-field::part(label) {
+   color: #0ef;
+   font-family: serif;
+   font-weight: bold;
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+
+.field-layout > vaadin-text-field > input:placeholder-shown {
+   font-family: serif;
+   color: black;
+}
+
+.field-layout > vaadin-text-field > input {
+   margin-left: 10px;
+}
+
+.field-layout > vaadin-text-field::part(input-field) {
+   width: 100%;
+   height: 55px;
+   /*border-radius: 30px;
+   background: var(--text-field);
+   border: 0.5px solid var(--nav-border);*/
+   color: black;
+  border: 0.5px solid white;
+  border-radius: 30px;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+}
+
+.field-layout {
+   all: unset;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.main-layout > span:last-child {
+   font-size: 20px;
+   color: white;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   font-style: italic;
+}
+
+.main-layout {
+   height: 100%;
+   ackground: rgb(2,0,36);
+   ackground: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+   align-items: center;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) span {
+   font-size: 20px;
+   color: white;
+   font-family: serif;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) {
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > vaadin-button {
+   align-self: end;
+   color: white;
+   background: var(--lumo-primary-color);
+   border-radius: 10px;
+   margin-right: 10px;
+   font-family: serif;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > div > vaadin-icon {
+   font-size: 30px;
+   stroke: #0ef;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > div {
+   margin-left: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+}
+
+.header-layout span {
+   font-size: 13px;
+   font-family: serif;
+}
+
+.header-main-layout {
+  width: 100%;
+  padding: 0;
+  padding-top: 15px;
+}
+
+vaadin-app-layout[overlay], vaadin-app-layout::part(navbar) {
+   background: var(--primary);
+}
+
+.header-layout {
+   width: 100%;
+   align-items: center;
+   color: white;
+   border-top: 0.5px solid var(--nav-border);
+   border-bottom: 0.5px solid var(--nav-border);
+   padding: 10px;
+   justify-content: space-evenly;
+}
+
+.header-layout > vaadin-avatar {
+   border: 0.5px solid var(--nav-border);
+   width: 40px;
+   height: 40px;
+}
+
+.header-layout > vaadin-button > vaadin-icon {
+   color: #0ef;
+}
+
+.header-layout > vaadin-button {
+   align-self: end;
+   color: white;
+   background: var(--button-contrast-color);
+   border-radius: 8px;
+   font-family: serif;
+}
+
+.header-text {
+}
+
+.text {
+   color: white;
+   width: 300px;
+   align-self: center;
+   margin-right: 50px;
+}
+
+.done-button {
+}
+
+.ai-avatar {
+}
+
+.field-layout {
+}
+
+.main-layout {
+}
+
+.second-layout {
+}
+
+:root {
+  --primary: #242527;
+  --secondary: #797E81;
+  --nav-border: #666769;
+  --primary-text-color: #6CA7ED;
+  --button-contrast-color: #393A3C;
+  --text-field: #393A3C;
+  --hover-color: #656668;
+  --sheet-error-color: #FC5777;
+  --block-error-color: #DF484F;
+  --block-text-color: #B0B4B7;
+  --block-button-error-color: #FB3C44;
+  --text-area-color: #333436;
+}
+
+body {
+  font-family: serif;
+}
+
+.form[overlay] {
+  background-image: url('./images/background.png');
+  background-size: cover;
+}
+
+.register-form {
+  background-image: url('./images/background.png');
+  background-size: cover;
+}

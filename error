@@ -1,0 +1,44 @@
+t=2024-05-12T11:15:11+0000 lvl=info msg="no configuration paths supplied"
+t=2024-05-12T11:15:11+0000 lvl=warn msg="ngrok config file found at both XDG and legacy locations, using XDG location" xdg_path=/home/.config/ngrok/ngrok.yml legacy_path=/home/.ngrok2/ngrok.yml
+t=2024-05-12T11:15:11+0000 lvl=info msg="using configuration at default config path" path=/home/.config/ngrok/ngrok.yml
+t=2024-05-12T11:15:11+0000 lvl=info msg="open config file" path=/home/.config/ngrok/ngrok.yml err=nil
+t=2024-05-12T11:15:11+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-05-12T11:15:11+0000 lvl=info msg="client session established" obj=tunnels.session
+t=2024-05-12T11:15:11+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-05-12T11:15:12+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": tls: failed to verify certificate: x509: certificate signed by unknown authority"
+t=2024-05-12T11:15:12+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://summary-spider-internally.ngrok-free.app
+t=2024-05-12T11:15:14+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2024-05-12T11:15:14+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2024-05-12T11:15:14+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2024-05-12T11:15:14+0000 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=ca186c4cb391 err="reconnecting session closed"
+t=2024-05-12T11:15:14+0000 lvl=info msg="no more state changes" obj=tunnels.session
+t=2024-05-12T11:15:14+0000 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=0a5882b95b346ee929dc9e251717d2f2
+t=2024-05-12T11:15:14+0000 lvl=warn msg="Stopping forwarder" name=command_line acceptErr="failed to accept connection: Listener closed"
+t=2024-05-18T03:27:30+0000 lvl=info msg="no configuration paths supplied"
+t=2024-05-18T03:27:30+0000 lvl=warn msg="ngrok config file found at both XDG and legacy locations, using XDG location" xdg_path=/home/.config/ngrok/ngrok.yml legacy_path=/home/.ngrok2/ngrok.yml
+t=2024-05-18T03:27:30+0000 lvl=info msg="using configuration at default config path" path=/home/.config/ngrok/ngrok.yml
+t=2024-05-18T03:27:30+0000 lvl=info msg="open config file" path=/home/.config/ngrok/ngrok.yml err=nil
+t=2024-05-18T03:27:30+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-05-18T03:27:31+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": tls: failed to verify certificate: x509: certificate signed by unknown authority"
+t=2024-05-18T03:27:31+0000 lvl=info msg="client session established" obj=tunnels.session
+t=2024-05-18T03:27:31+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-05-18T03:27:31+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://summary-spider-internally.ngrok-free.app
+t=2024-05-18T03:28:58+0000 lvl=info msg="join connections" obj=join id=f1c99b207fe3 l=127.0.0.1:8080 r=110.54.174.51:62157
+t=2024-05-18T03:29:01+0000 lvl=info msg="join connections" obj=join id=f95801c5b456 l=127.0.0.1:8080 r=110.54.174.51:62157
+t=2024-05-18T03:29:02+0000 lvl=info msg="join connections" obj=join id=c96039d8ba62 l=127.0.0.1:8080 r=110.54.174.51:62157
+t=2024-05-18T03:29:02+0000 lvl=info msg="join connections" obj=join id=dceadb2bce36 l=127.0.0.1:8080 r=110.54.174.51:62157
+t=2024-05-18T03:30:21+0000 lvl=info msg="join connections" obj=join id=2ebd84e69284 l=127.0.0.1:8080 r=110.54.174.51:52299
+t=2024-05-18T03:30:26+0000 lvl=info msg="join connections" obj=join id=51390b8837b9 l=127.0.0.1:8080 r=110.54.174.51:52299
+t=2024-05-18T03:30:26+0000 lvl=info msg="join connections" obj=join id=63af60e2eedf l=127.0.0.1:8080 r=110.54.174.51:52299
+t=2024-05-18T03:30:28+0000 lvl=info msg="join connections" obj=join id=0e7d6a4b7bbd l=127.0.0.1:8080 r=110.54.174.51:7032
+t=2024-05-18T03:30:28+0000 lvl=info msg="join connections" obj=join id=cc8a2ae7ceb2 l=127.0.0.1:8080 r=110.54.174.51:7032
+t=2024-05-18T03:30:45+0000 lvl=info msg="join connections" obj=join id=563a61bfe287 l=127.0.0.1:8080 r=110.54.174.51:10800
+t=2024-05-18T03:30:49+0000 lvl=info msg="join connections" obj=join id=47627533a049 l=127.0.0.1:8080 r=110.54.174.51:10800
+t=2024-05-18T03:31:02+0000 lvl=info msg="join connections" obj=join id=79646d290697 l=127.0.0.1:8080 r=110.54.174.51:10800
+t=2024-05-18T03:31:02+0000 lvl=info msg="join connections" obj=join id=2d132a049ebf l=127.0.0.1:8080 r=110.54.174.51:10800
+t=2024-05-18T03:31:44+0000 lvl=info msg="join connections" obj=join id=d2c5758050b5 l=127.0.0.1:8080 r=110.54.174.51:41104
+t=2024-05-18T04:54:10+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2024-05-18T04:54:10+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2024-05-18T04:54:10+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2024-05-18T04:54:10+0000 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=16b29e3e0463 err="reconnecting session closed"
+t=2024-05-18T04:54:10+0000 lvl=info msg="no more state changes" obj=tunnels.session
